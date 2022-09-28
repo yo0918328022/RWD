@@ -1,0 +1,52 @@
+﻿body {
+    background-image: url('../images/Banner.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+caption {
+
+    color: #344aca;
+    text-align: center;
+    caption-side: top;
+    font-size:1.3rem;
+}
+
+
+.table-hover tbody tr:hover {
+    color: #ff0000;
+    font-size: 1.3rem;
+    background-color: #b6ff00;
+}
+
+.MyTable{
+    overflow:auto;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #ff0000;
+    content: ">";
+}
+
+/*標題橫幅*/
+.jumbotron {
+    background-image: url('../photo/00.jpg');
+    background-repeat: round;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 3px black;
+}
+
+.modal-body {
+  
+    background-image: url('../photo/pngtree-flat-tourist-season-world-map-background-image_193765.jpg');
+    /*背景重複填充*/
+    background-repeat: round;
+}
+.header {
+    
+}
